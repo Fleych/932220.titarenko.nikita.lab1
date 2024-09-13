@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    color: white;
+}
+
+.header {
+    padding: 10px;
+    background-color: green;
+    font-family: 'Courier New';
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.content {
+    width: 449px;
+    margin: auto;
+    padding: 20px;
+    background-color: blue;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 90px;
+    height: 90px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    border: 4px solid white;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    float: left;
+}
+
+nav {
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+
+nav a {
+    color:red;
+}
+
+ul > li {
+    line-height: 200%;
+}
+
+.the_list h2 {
+    word-spacing: 10px;
+}
+
+
+.the_list span {
+    color: red;
+}
+
+.the_list ul {
+    margin-left: 35px;
+}
+
+.the_list li:nth-child(2) {
+    color: aqua;
+    letter-spacing: 5px;
+}
+
+.visual_styles ul {
+    list-style: none;
+}
+
+.visual_styles li:nth-child(4) {
+    text-decoration: line-through;
+}
+aside {
+    float: right;
+}
+
+aside table {
+    border: solid 1px white;
+}
+aside td {
+    font-size: 1.3em;
+    vertical-align: bottom;
+    text-align: center;
+    width: 45px;
+    height: 35px;
+    border: solid 1px white;
+}
+
+aside tr:last-child td:last-child {
+    background-color: red;
+}
+
+aside tr:first-child td:first-child {
+    background-color: green;
+}
+
+aside img {
+    margin-top: 10px;
+    float: right;
+}
+
+.footer {
+    padding: 10px;
+    background-color: green;
+    text-align: center;
+    font-size: 1.2em;
+}
